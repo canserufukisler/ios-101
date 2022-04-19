@@ -12,6 +12,7 @@
 		4FDD1D21280CB5E600FFE69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDD1D20280CB5E600FFE69B /* Assets.xcassets */; };
 		4FDD1D24280CB5E600FFE69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDD1D22280CB5E600FFE69B /* LaunchScreen.storyboard */; };
 		4FDD1D2F280D792300FFE69B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDD1D2E280D792300FFE69B /* LoginView.swift */; };
+		4FDD1D32280F5C6C00FFE69B /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDD1D31280F5C6C00FFE69B /* OnboardingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4FDD1D23280CB5E600FFE69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FDD1D25280CB5E600FFE69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDD1D2E280D792300FFE69B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4FDD1D31280F5C6C00FFE69B /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		4FDD1D16280CB5E300FFE69B /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				4FDD1D2C280D78AF00FFE69B /* Files */,
+				4FDD1D30280F5C1400FFE69B /* Onboarding */,
 				4FDD1D2D280D78D300FFE69B /* Login */,
 				4FDD1D17280CB5E300FFE69B /* AppDelegate.swift */,
+				4FDD1D2C280D78AF00FFE69B /* Files */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -78,6 +81,14 @@
 				4FDD1D2E280D792300FFE69B /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		4FDD1D30280F5C1400FFE69B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4FDD1D31280F5C6C00FFE69B /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				4FDD1D2F280D792300FFE69B /* LoginView.swift in Sources */,
 				4FDD1D1C280CB5E300FFE69B /* LoginViewController.swift in Sources */,
 				4FDD1D18280CB5E300FFE69B /* AppDelegate.swift in Sources */,
+				4FDD1D32280F5C6C00FFE69B /* OnboardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
