@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
-        window?.rootViewController = OnboardingViewController()
+        //window?.rootViewController = OnboardingViewController(heroImageName: "delorean", titleText: "Bankey is faster' easier to use' and has a brand new look and feel that will make you fill like you are back in 1989.")
+        window?.rootViewController = OnboardingContainerViewController()
         
         return true
     }
